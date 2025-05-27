@@ -40,7 +40,6 @@ export default function MycieOkienPage() {
       <ServiceLayout
         title="Mycie okien na wysokości"
         pageName="mycie-okien-i-elewacji-na-wysokosciach"
-        imageUrl="/images/window-cleaning.png"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

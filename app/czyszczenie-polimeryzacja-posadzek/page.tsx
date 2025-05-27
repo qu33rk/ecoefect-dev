@@ -33,7 +33,6 @@ export default function PosadzkiPage() {
       <ServiceLayout
         title="Zabezpieczanie i czyszczenie posadzek i podłóg"
         pageName="czyszczenie-polimeryzacja-posadzek"
-        imageUrl="/images/floor-cleaning.png"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

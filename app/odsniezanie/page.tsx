@@ -33,7 +33,6 @@ export default function OdsniezaniePage() {
       <ServiceLayout
         title="Odśnieżanie parkingów, placów i obiektów"
         pageName="odsniezanie"
-        imageUrl="/images/snow-removal.png"
       >
         <div className="prose max-w-none">
           <p className="mb-6">
