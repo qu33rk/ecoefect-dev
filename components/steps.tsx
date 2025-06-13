@@ -10,7 +10,7 @@ export default function Steps() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center text-center">
             <div className="step-circle mb-6">1</div>
-            <h3 className="text-xl font-bold mb-4">Skontaktuj się</h3>
+            <span className="text-xl font-bold mb-4">Skontaktuj się</span>
             <p className="text-gray-700">
               Zadzwoń{" "}
               <a href="tel:+48502630031" className="text-green-700 hover:underline">
@@ -22,7 +22,7 @@ export default function Steps() {
 
           <div className="flex flex-col items-center text-center">
             <div className="step-circle mb-6">2</div>
-            <h3 className="text-xl font-bold mb-4">Umów spotkanie</h3>
+            <span className="text-xl font-bold mb-4">Umów spotkanie</span>
             <p className="text-gray-700">
               Nasz przedstawiciel przyjedzie na miejsce, aby obejrzeć obiekt i poznać Twoje oczekiwania.
             </p>
@@ -30,7 +30,7 @@ export default function Steps() {
 
           <div className="flex flex-col items-center text-center">
             <div className="step-circle mb-6">3</div>
-            <h3 className="text-xl font-bold mb-4">Ustal szczegóły</h3>
+            <span className="text-xl font-bold mb-4">Ustal szczegóły</span>
             <p className="text-gray-700">
               Przedstawiamy Ci ofertę na usługi sprzątania, a po jej akceptacji finalizujemy formalności.
             </p>
