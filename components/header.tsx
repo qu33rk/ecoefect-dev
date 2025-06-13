@@ -51,7 +51,7 @@ export default function Header() {
                 <Phone size={20} />
               </div>
               <div>
-                <h3 className="text-sm font-medium">Kontakt</h3>
+                <span className="text-sm font-medium">Kontakt</h3>
                 <p className="text-sm">
                   <a href="tel:+48502630031">502 630 031</a>
                 </p>
