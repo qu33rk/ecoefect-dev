@@ -80,21 +80,25 @@ export default function TestimonialsSection() {
             ))}
           </div>
 
-          <button
-            onClick={prevTestimonial}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-white rounded-full p-2 shadow-md hover:bg-gray-100"
-            aria-label="Poprzednia opinia"
-          >
-            <ChevronLeft size={24} />
-          </button>
+<button
+  onClick={prevTestimonial}
+  className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100
+    md:-left-12
+    sm:-left-2"
+  aria-label="Poprzednia opinia"
+>
+  <ChevronLeft size={24} />
+</button>
+<button
+  onClick={nextTestimonial}
+  className="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100
+    md:-right-12
+    sm:-right-2"
+  aria-label="Następna opinia"
+>
+  <ChevronRight size={24} />
+</button>
 
-          <button
-            onClick={nextTestimonial}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-white rounded-full p-2 shadow-md hover:bg-gray-100"
-            aria-label="Następna opinia"
-          >
-            <ChevronRight size={24} />
-          </button>
         </div>
       </div>
     </section>
