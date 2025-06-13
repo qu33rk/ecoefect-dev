@@ -38,7 +38,7 @@ export default function PosadzkiPage() {
           <p className="mb-6">
             Oferujemy profesjonalne usługi czyszczenia, konserwacji i zabezpieczania różnych typów posadzek. Nasze
             usługi są skierowane do firm, instytucji i obiektów handlowych, gdzie podłogi są narażone na intensywne
-            użytkowanie i wymagają specjalistycznej pielęgnacji.
+            użytkowanie i wymagają specjalistycznej pielęgnacji..
           </p>
 
           <ServiceIconSection icon="window" title="Czyszczenie maszynowe posadzek">
