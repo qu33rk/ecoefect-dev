@@ -1,4 +1,4 @@
-import ServiceLayout from "@/components/service-layout"
+import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"

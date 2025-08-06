@@ -6,11 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin", "latin-ext"] })
 
 export const metadata: Metadata = {
-  title: "ECO EFECT - Profesjonalne usługi sprzątania",
-  description:
-    "Firma sprzątająca Bydgoszcz - profesjonalne usługi sprzątania w województwie kujawsko-pomorskim i nie tylko",
-  robots: "noindex,follow",
-    generator: 'v0.dev'
+  robots: "noindex,nofollow"
 }
 
 export default function RootLayout({

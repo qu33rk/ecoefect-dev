@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative h-[500px] w-full">
       <div className="absolute inset-0">
-        <div className="w-full h-full bg-gradient-to-r from-green-700 to-green-500">
+        <div className="w-full h-full hero-bg bg-cover bg-center">
           {/* Placeholder for hero image */}
           <div className="w-full h-full flex items-center justify-center opacity-20">
             <svg

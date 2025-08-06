@@ -1,4 +1,4 @@
-import ServiceLayout from "@/components/service-layout"
+import ServiceLayout from "@/app/service-layout"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
