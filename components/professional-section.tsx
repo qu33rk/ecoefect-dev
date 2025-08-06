@@ -25,7 +25,7 @@ export default function ProfessionalSection() {
               Zadzwoń teraz <span className="ml-2">→</span>
             </a>
           </div>
-          <div className="md:w-1/2 h-80 bg-gray-200 rounded-lg">
+          <div className="md:w-1/2 w-full h-[360px] md:h-80 bg-gray-200 rounded-lg flex items-center justify-center">
             {/* Placeholder for image */}
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-600 to-green-800 rounded-lg text-white opacity-80">
               <svg
