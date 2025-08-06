@@ -4,6 +4,16 @@ import { Phone, Mail, MapPin, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Kontakt | Eco Efect Bydgoszcz",
+  description:
+    "Szukasz sprawdzonej firmy sprzątającej? Gwarantujemy konkurencyjne stawki i wycenę u klienta. Realizujemy zlecenia na terenie Bydgoszczy i najbliższych okolic. Wejdź i sprawdź lub zadzwoń: 502 630 031.",
+  alternates: {
+    canonical: "https://ecoefect.pl/kontakt",
+  },
+}
 
 export default function KontaktPage() {
   return (

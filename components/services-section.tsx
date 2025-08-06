@@ -1,5 +1,6 @@
 export default function ServicesSection() {
   return (
+    <>
     <section className="py-12 bg-green-700 text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">
@@ -81,5 +82,16 @@ export default function ServicesSection() {
         </div>
       </div>
     </section>
+    <section className="py-12 bg-white" id="text">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-6 text-center">Jak działamy?</h2>
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-700">
+            Oferujemy profesjonalne usługi sprzątające w Bydgoszczy i województwie kujawsko-pomorskim, bez dodatkowych opłat za dojazd. Nasza siedziba znajduje się na Kapuściskach. Działamy elastycznie przez całą dobę, zarówno w dni robocze jak i weekendy, dostosowując się do potrzeb różnych branż. Ze względu na używany sprzęt, dla biur rekomendujemy sprzątanie wieczorem, a dla obiektów handlowych – w późnych godzinach nocnych. Preferujemy współpracę w modelu abonamentowym, co pozwala nam oferować lepszą jakość usług w korzystniejszych cenach, zapewniając klientom stałą gotowość ich przestrzeni na przyjęcie gości.
+          </p>
+        </div>
+      </div>
+    </section>
+    </>
   )
 }

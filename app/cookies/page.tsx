@@ -12,10 +12,7 @@ export default function CookiesPage() {
   return (
     <ServiceLayout
       title="Polityka plików cookies"
-      pageName="cookies"
-      metaTitle="Polityka plików cookies | ECO EFECT Bydgoszcz"
-      metaDescription="Polityka plików cookies firmy ECO EFECT. Informacje o przechowywaniu i dostępie do informacji na urządzeniach Użytkownika za pomocą plików Cookies."
-      canonicalUrl="https://ecoefect.pl/cookies"
+      pageName="Polityka plików cookies"
     >
       <div className="prose max-w-none">
         <p className="mb-6">

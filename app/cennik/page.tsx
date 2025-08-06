@@ -1,56 +1,62 @@
-import Header from "@/components/header"
-import Footer from "@/components/footer"
+import ServiceLayout from "@/app/service-layout"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Cennik | Eco Efect Bydgoszcz",
+  alternates: {
+    canonical: "https://ecoefect.pl/cennik",
+  },
+}
 
 export default function CennikPage() {
   return (
-    <main className="min-h-screen flex flex-col">
-      <Header />
-
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Cennik</h1>
-
-          <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="p-6 bg-green-700 text-white">
-              <h2 className="text-xl font-bold">Indywidualna wycena</h2>
-              <p className="mt-2">Każdą usługę wyceniamy indywidualnie, biorąc pod uwagę:</p>
-            </div>
-
-            <div className="p-6">
-              <ul className="space-y-4">
-                <li className="pb-4 border-b border-gray-100">
-                  <span className="font-medium text-green-700">Powierzchnia</span>
-                  <p className="text-gray-600 mt-1">Wielkość powierzchni do sprzątania w m²</p>
-                </li>
-                <li className="pb-4 border-b border-gray-100">
-                  <span className="font-medium text-green-700">Częstotliwość</span>
-                  <p className="text-gray-600 mt-1">Jak często wykonywana będzie usługa</p>
-                </li>
-                <li className="pb-4 border-b border-gray-100">
-                  <span className="font-medium text-green-700">Zakres prac</span>
-                  <p className="text-gray-600 mt-1">Szczegółowy zakres czynności do wykonania</p>
-                </li>
-                <li className="pb-4 border-b border-gray-100">
-                  <span className="font-medium text-green-700">Specyfika obiektu</span>
-                  <p className="text-gray-600 mt-1">Rodzaj obiektu i jego specyficzne wymagania</p>
-                </li>
-                <li>
-                  <span className="font-medium text-green-700">Dodatkowe usługi</span>
-                  <p className="text-gray-600 mt-1">Usługi specjalistyczne wymagające specjalnego sprzętu</p>
-                </li>
-              </ul>
-
-              <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-                <p className="text-center font-medium">Aby otrzymać bezpłatną wycenę, skontaktuj się z nami:</p>
-                <p className="text-center text-green-700 font-bold mt-2">502 630 031</p>
-                <p className="text-center text-sm text-gray-500 mt-1">lub wypełnij formularz kontaktowy</p>
-              </div>
-            </div>
-          </div>
+    <ServiceLayout 
+      title="Cennik" 
+      pageName="Cennik"
+      imageUrl="/cennik.webp"
+      >
+      <div className="prose max-w-none">
+        <div className="overflow-x-auto mb-8">
+          <table className="min-w-full bg-gray-50 rounded-lg">
+            <thead>
+              <tr>
+                <th className="py-3 px-4 text-left font-bold">Usługa</th>
+                <th className="py-3 px-4 text-left font-bold">Cena</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-900">
+              <tr className="border-t">
+                <td className="py-3 px-4">Sprzątanie biur</td>
+                <td className="py-3 px-4">od 1 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Sprzątanie hal magazynowych</td>
+                <td className="py-3 px-4">od 1,5 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Pranie wykładzin</td>
+                <td className="py-3 px-4">od 7 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Mycie okien na wysokościach</td>
+                <td className="py-3 px-4">od 8 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Mycie elewacji</td>
+                <td className="py-3 px-4">od 7 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Polimeryzacja podłóg</td>
+                <td className="py-3 px-4">od 9 zł/m2</td>
+              </tr>
+              <tr className="border-t">
+                <td className="py-3 px-4">Doczyszczanie posadzek</td>
+                <td className="py-3 px-4">od 5 zł/m2</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </section>
-
-      <Footer />
-    </main>
+      </div>
+    </ServiceLayout>
   )
 }

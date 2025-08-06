@@ -2,6 +2,16 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Zabezpieczanie i czyszczenie posadzek i podłóg | ECO EFECT Bydgoszcz",
+  description:
+    "Profesjonalne usługi czyszczenia, konserwacji i zabezpieczania różnych typów posadzek. Polimeryzacja, krystalizacja marmuru, czyszczenie maszynowe posadzek.",
+  alternates: {
+    canonical: "https://ecoefect.pl/czyszczenie-polimeryzacja-posadzek",
+  },
+}
 
 export default function PosadzkiPage() {
   const faqItems = [
@@ -32,7 +42,7 @@ export default function PosadzkiPage() {
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/czyszczenie-polimeryzacja-posadzek" />
       <ServiceLayout
         title="Zabezpieczanie i czyszczenie posadzek i podłóg"
-        pageName="czyszczenie-polimeryzacja-posadzek"
+        pageName="Zabezpieczanie i czyszczenie posadzek i podłóg"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

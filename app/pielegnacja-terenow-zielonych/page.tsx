@@ -2,6 +2,16 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Pielęgnacja ogródów, pielęgnacja terenów zielonych | Eco Efect Bydgoszcz",
+  description:
+    "Podejmujemy się regularnej i doraźnej pielęgnacji terenów zielonych. Wykonujemy prace porządkowe oraz dbamy o estetykę ogrodów, parków, trawników i skwerów. Sprawdź naszą ofertę!",
+  alternates: {
+    canonical: "https://ecoefect.pl/pielegnacja-terenow-zielonych",
+  },
+}
 
 export default function TerenyZielonePage() {
   const faqItems = [
@@ -32,7 +42,7 @@ export default function TerenyZielonePage() {
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/pielegnacja-terenow-zielonych" />
       <ServiceLayout
         title="Pielęgnacja ogrodów i terenów zielonych"
-        pageName="pielegnacja-terenow-zielonych"
+        pageName="Pielęgnacja ogrodów i terenów zielonych"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

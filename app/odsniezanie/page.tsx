@@ -2,6 +2,16 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Odśnieżanie parkingów, placów i obiektów | ECO EFECT Bydgoszcz",
+  description:
+    "Prowadzimy prace zimowe związane z odśnieżaniem parkingów, chodników, obiektów i przestrzeni wokół budynków. Usuwamy warstwy ubitego śniegu, sople lodu oraz błoto. Pracujemy sprawnie, dokładnie, na własnych narzędziach!",
+  alternates: {
+    canonical: "https://ecoefect.pl/odsniezanie",
+  },
+}
 
 export default function OdsniezaniePage() {
   const faqItems = [
@@ -32,7 +42,7 @@ export default function OdsniezaniePage() {
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/odsniezanie" />
       <ServiceLayout
         title="Odśnieżanie parkingów, placów i obiektów"
-        pageName="odsniezanie"
+        pageName="Odśnieżanie parkingów, placów i obiektów"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

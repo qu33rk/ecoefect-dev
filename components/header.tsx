@@ -98,11 +98,6 @@ export default function Header() {
                 {ofertaOpen && (
                   <ul className="absolute right-0 z-10 bg-white shadow-md rounded-md py-2 mt-1 w-64">
                     <li>
-                      <Link href="/#et" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Usługi sprzątania
-                      </Link>
-                    </li>
-                    <li>
                       <Link
                         href="/mycie-okien-i-elewacji-na-wysokosciach"
                         className="block px-4 py-2 hover:bg-gray-100 text-sm"

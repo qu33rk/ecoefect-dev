@@ -48,7 +48,7 @@ export default function MycieOkienPage() {
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach" />
       <ServiceLayout
         title="Mycie okien na wysokości"
-        pageName="mycie-okien-i-elewacji-na-wysokosciach"
+        pageName="Mycie okien na wysokości"
       >
         <div className="prose max-w-none">
           <p className="mb-6">

@@ -41,22 +41,17 @@ export default function Footer() {
             <p className="font-bold mb-4">Oferta:</p>
             <ul className="space-y-2">
               <li>
-                <Link href="/#et" className="hover:text-green-700 transition-colors">
-                  Usługi sprzątania
-                </Link>
-              </li>
-              <li>
-                <Link href="/mycie-okien" className="hover:text-green-700 transition-colors">
+                <Link href="/mycie-okien-i-elewacji-na-wysokosciach" className="hover:text-green-700 transition-colors">
                   Mycie okien na wysokości
                 </Link>
               </li>
               <li>
-                <Link href="/pranie-dywanow" className="hover:text-green-700 transition-colors">
+                <Link href="/pranie-dywanow-i-wykladzin" className="hover:text-green-700 transition-colors">
                   Czyszczenie wykładzin i pranie dywanów
                 </Link>
               </li>
               <li>
-                <Link href="/tereny-zielone" className="hover:text-green-700 transition-colors">
+                <Link href="/pielegnacja-terenow-zielonych" className="hover:text-green-700 transition-colors">
                   Pielęgnacja ogrodów i terenów zielonych
                 </Link>
               </li>
@@ -66,7 +61,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/posadzki" className="hover:text-green-700 transition-colors">
+                <Link href="/czyszczenie-polimeryzacja-posadzek" className="hover:text-green-700 transition-colors">
                   Zabezpieczanie i czyszczenie posadzek i podłóg
                 </Link>
               </li>
