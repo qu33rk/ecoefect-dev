@@ -7,12 +7,12 @@ interface SideMenuProps {
 export default function SideMenu({ activePage }: SideMenuProps) {
   const menuItems = [
     { title: "NASZE USŁUGI", href: "#", isHeader: true },
-    { title: "Usługi sprzątania", href: "/#et" },
     { title: "Mycie okien na wysokości", href: "/mycie-okien-i-elewacji-na-wysokosciach" },
     { title: "Czyszczenie wykładzin i pranie dywanów", href: "/pranie-dywanow-i-wykladzin" },
     { title: "Pielęgnacja ogrodów i terenów zielonych", href: "/pielegnacja-terenow-zielonych" },
     { title: "Odśnieżanie parkingów, placów i obiektów", href: "/odsniezanie" },
     { title: "Zabezpieczanie i czyszczenie posadzek i podłóg", href: "/czyszczenie-polimeryzacja-posadzek" },
+    { title: "Cennik", href: "/cennik" },
     { title: "Polityka plików cookies", href: "/cookies" },
   ]
 
