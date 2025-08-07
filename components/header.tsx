@@ -107,11 +107,6 @@ export default function Header() {
                     aria-label="Podmenu Oferta"
                   >
                     <li>
-                      <Link href="/#et" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Usługi sprzątania
-                      </Link>
-                    </li>
-                    <li>
                       <Link
                         href="/mycie-okien-i-elewacji-na-wysokosciach"
                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
