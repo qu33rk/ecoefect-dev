@@ -72,7 +72,7 @@ export default function KontaktPage() {
               <h2 className="text-2xl font-bold mb-6 text-green-700">Formularz kontaktowy</h2>
 
               <form className="space-y-4" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                <input type="hidden" name="access_key" value="859064d9-4d3a-4820-baed-c220fcbfd22b" />
                 <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
