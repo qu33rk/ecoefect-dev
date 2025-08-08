@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin", "latin-ext"] })
 
 export const metadata: Metadata = {
-  robots: "noindex,nofollow"
+  robots: "index,follow"
 }
 
 export default function RootLayout({
