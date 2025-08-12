@@ -140,7 +140,7 @@ export default function ProfessionalSection() {
                   <path d="M8 8h8M8 12h8M8 16h8" />
                 </svg>
                 <span className="font-bold text-lg">
-                  Cenny za sprzątanie
+                  Wycenę za sprzątanie
                 </span>
               </div>
             </div>
