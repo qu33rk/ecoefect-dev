@@ -13,7 +13,7 @@ import MapSection from "@/components/map-section"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Firma sprzątająca Bydgoszcz - sprzątanie biur i firm ✅ Eco Efect",
+  title: "Sprzątanie Bydgoszcz - Firma sprzątająca Eco Efect Bydgoszcz",
   description: "Profesjonalna firma sprzątająca z Bydgoszczy świadcząca kompleksowe usługi związane z utrzymaniem czystości. ☎ 502 630 031",
   alternates: {
     canonical: "https://ecoefect.pl/",
