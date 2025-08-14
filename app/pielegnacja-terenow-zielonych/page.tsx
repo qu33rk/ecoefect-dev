@@ -43,6 +43,7 @@ export default function TerenyZielonePage() {
       <ServiceLayout
         title="Pielęgnacja ogrodów i terenów zielonych"
         pageName="Pielęgnacja ogrodów i terenów zielonych"
+        imageUrl="/pielegnacja-ogrodow.jpg"
       >
         <div className="prose max-w-none">
           <p className="mb-6">
