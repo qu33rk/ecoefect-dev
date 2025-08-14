@@ -79,14 +79,14 @@ export default function KontaktPage() {
                     <label htmlFor="name" className="text-sm font-medium">
                       Imię i nazwisko
                     </label>
-                    <Input id="name" placeholder="Wpisz swoje imię i nazwisko" />
+                    <Input id="name" name="name" placeholder="Wpisz swoje imię i nazwisko" />
                   </div>
 
                   <div className="space-y-2">
                     <label htmlFor="phone" className="text-sm font-medium">
                       Telefon
                     </label>
-                    <Input id="phone" placeholder="Wpisz swój numer telefonu" />
+                    <Input id="phone" name="phone" placeholder="Wpisz swój numer telefonu" />
                   </div>
                 </div>
 
@@ -94,21 +94,21 @@ export default function KontaktPage() {
                   <label htmlFor="email" className="text-sm font-medium">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="Wpisz swój adres email" />
+                  <Input id="email" name="email" type="email" placeholder="Wpisz swój adres email" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium">
                     Temat
                   </label>
-                  <Input id="subject" placeholder="Wpisz temat wiadomości" />
+                  <Input id="subject" name="subject" placeholder="Wpisz temat wiadomości" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
                     Wiadomość
                   </label>
-                  <Textarea id="message" placeholder="Wpisz swoją wiadomość" rows={5} />
+                  <Textarea id="message" name="message" placeholder="Wpisz swoją wiadomość" rows={5} />
                 </div>
 
                 <Button type="submit" className="w-full bg-green-700 hover:bg-green-800">
