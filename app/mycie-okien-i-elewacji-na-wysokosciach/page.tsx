@@ -49,7 +49,7 @@ export default function MycieOkienPage() {
       <ServiceLayout
         title="Mycie okien na wysokości"
         pageName="Mycie okien na wysokości"
-        imageUrl="/mycie-okien-na-wysokosci.webp"
+        imageUrl="/mycie-okien-na-wysokosci.jpg"
       >
         <div className="prose max-w-none">
           <p className="mb-6">
