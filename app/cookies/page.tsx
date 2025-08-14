@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Polityka plików cookies | ECO EFECT Bydgoszcz",
   description:
     "Polityka plików cookies firmy ECO EFECT. Informacje o przechowywaniu i dostępie do informacji na urządzeniach Użytkownika za pomocą plików Cookies.",
+  alternates: {
+    canonical: "https://ecoefect.pl/cookies",
+  },
 }
 
 export default function CookiesPage() {
