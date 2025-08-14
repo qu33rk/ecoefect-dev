@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function ProfessionalSection() {
   return (
     <>
@@ -26,25 +28,14 @@ export default function ProfessionalSection() {
             </a>
           </div>
           <div className="md:w-1/2 w-full h-[360px] md:h-80 bg-gray-200 rounded-lg flex items-center justify-center">
-            {/srodki-czystosci.jpg}
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-600 to-green-800 rounded-lg text-white opacity-80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-                <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-                <path d="M8 13h8" />
-                <path d="M8 17h8" />
-                <path d="M8 9h2" />
-              </svg>
+              <Image 
+                src="/srodki-czystosci.jpg"
+                alt="Używane środki czystości"
+                width={400}
+                height={300}
+                className="object-cover w-full h-full rounded-lg"
+              />
             </div>
           </div>
         </div>
@@ -57,23 +48,13 @@ export default function ProfessionalSection() {
           <div className="md:w-1/2 w-full h-[360px] md:h-full bg-gray-200 rounded-lg flex items-center justify-center">
             {/* Placeholder for image */}
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-600 to-green-800 rounded-lg text-white opacity-80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-                <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-                <path d="M8 13h8" />
-                <path d="M8 17h8" />
-                <path d="M8 9h2" />
-              </svg>
+              <Image 
+                src="/srodki-czystosci.jpg"
+                alt="Używane środki czystości"
+                width={400}
+                height={300}
+                className="object-cover w-full h-full rounded-lg"
+              />
             </div>
           </div>
           <div className="md:w-1/2">
