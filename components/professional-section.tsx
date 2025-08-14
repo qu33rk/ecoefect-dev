@@ -30,7 +30,7 @@ export default function ProfessionalSection() {
           <div className="md:w-1/2 w-full h-[360px] md:h-80 bg-gray-200 rounded-lg flex items-center justify-center">
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-green-600 to-green-800 rounded-lg text-white opacity-80">
               <Image 
-                src="/srodki-czystosci.jpg"
+                src="/czyszczenie-powierzchni.jpg"
                 alt="Używane środki czystości"
                 width={400}
                 height={300}
