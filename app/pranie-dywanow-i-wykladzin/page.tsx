@@ -60,6 +60,7 @@ export default function PranieDywanowPage() {
       <ServiceLayout
         title="Czyszczenie wykładzin i pranie dywanów"
         pageName="Czyszczenie wykładzin i pranie dywanów"
+        imageUrl="/czyszczenie-dywanu.jpg"
       >
         <div className="prose max-w-none">
           <p className="mb-6">
