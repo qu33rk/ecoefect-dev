@@ -12,6 +12,7 @@ export default function CookiesPage() {
     <ServiceLayout
       title="Polityka plików cookies"
       pageName="Polityka plików cookies"
+      imageUrl="/cennik.webp"
     >
       <div className="prose max-w-none">
         <p className="mb-6">
