@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Czyszczenie wykładzin i pranie dywanów | Eco Efect Bydgoszcz",
   description:
-    "Oferujemy profesjonalne pranie wykładzin i dywanów, czyszczenie tapicerki meblowej oraz ozonowanie pomieszczeń. Dojeżdżamy do klientów na terenie Bydgoszczy i okolic.",
+    "Oferujemy profesjonalne pranie wykładzin i dywanów, czyszczenie tapicerki meblowej oraz ozonowanie pomieszczeń na terenie Bydgoszczy i okolic.",
   alternates: {
     canonical: "https://ecoefect.pl/pranie-dywanow-i-wykladzin",
   },
@@ -58,8 +58,8 @@ export default function PranieDywanowPage() {
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/pranie-dywanow-i-wykladzin" />
       <ServiceLayout
-        title="Czyszczenie wykładzin i pranie dywanów"
-        pageName="Czyszczenie wykładzin i pranie dywanów"
+        title="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
+        pageName="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
         imageUrl="/czyszczenie-dywanu.jpg"
       >
         <div className="prose max-w-none">
