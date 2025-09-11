@@ -64,18 +64,16 @@ export default function PranieDywanowPage() {
       >
         <div className="prose max-w-none">
           <p className="mb-6">
-            Gdy dojdziesz do wniosku, że dywanowi lub wykładzinie w Twoim domu czy firmie daleko do pierwotnej
-            świeżości, zachwali po nas! Samodzielne próby wyczyszczenia wykładziny z trudnych do usunięcia plam czy
-            głębokich zabrudzeń są czasochłonne i wymagają odpowiednich preparatów. Często brakuje także pewności, czy i
-            w jakim stopniu domowe metody będą skuteczne. Tradycyjne domowe metody są tu nie sprawdzają. Trzeba też
-            pamiętać, że wymaga włożenia wiele energii, co stanowi znaczące potknięcie w walce z nieoczekiwanymi! Często
-            pojawia się też problem braku miejsca do realizacji tej czynności.
+          Jeśli zauważysz, że Twój dywan lub wykładzina w domu czy firmie straciły dawną świeżość, nie trać czasu na nieskuteczne metody – zadzwoń do nas!
+          Samodzielne próby usuwania trudnych plam czy głębokich zabrudzeń bywają bardzo czasochłonne i wymagają specjalistycznych środków. Nigdy też nie 
+          ma pewności, czy domowe sposoby przyniosą oczekiwany efekt. W większości przypadków tradycyjne metody po prostu się nie sprawdzają, a dodatkowo 
+          wymagają ogromu energii, co szybko zniechęca. Dochodzi do tego jeszcze problem braku odpowiednich warunków i miejsca, aby przeprowadzić dokładne czyszczenie. 
+          Dlatego, jeśli chcesz szybko i skutecznie odświeżyć dywany lub wykładziny w Bydgoszczy, powierz to profesjonalistom.
           </p>
 
           <p className="mb-6">
-            Profesjonalne czyszczenie wykładzin rozwiąże Twój problem szybko i skutecznie. Zaufaj doświadczonym osobom,
-            które dysponują nie tylko wiedzą i doświadczeniem, ale przede wszystkim sprzętem umożliwiającym usuwanie
-            odpornych i uporczywych włókien.
+            Profesjonalne czyszczenie wykładzin to najszybszy i najpewniejszy sposób, by pozbyć się problemu. Powierz to zadanie specjalistom, 
+            którzy mają nie tylko wiedzę i doświadczenie, ale także nowoczesny sprzęt, dzięki któremu nawet najbardziej uporczywe zabrudzenia znikają bez śladu.
           </p>
 
           <ServiceIconSection icon="window" title="Koniec z trudnymi plamami!">
