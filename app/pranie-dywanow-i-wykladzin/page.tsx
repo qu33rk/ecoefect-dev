@@ -78,12 +78,11 @@ export default function PranieDywanowPage() {
 
           <ServiceIconSection icon="window" title="Koniec z trudnymi plamami!">
             <p>
-              Oferujemy profesjonalne usuwanie starych, uporczywych, nowych i trudno usuwalnych plam. Bez trudu
-              poradzimy sobie z pozostałościami po kawie, czerwonym winie, herbacie, krwi czy wosku. Mamy również coś
-              dla miłośników zwierząt: pozbędziemy się nieprzyjemnej sierści, głęboko zalegającej w Twoim dywanie czy
-              wykładzinie. Każde z tych zanieczyszczeń jest poważną dla użytkowników domu lub biura, a także problemem
-              dla osób sprzątających tradycyjnymi metodami. Jesteśmy firmą świadczącą wykładzin nie tylko tak, jak
-              podjął skutecznej!
+              Oferujemy profesjonalne usuwanie zarówno starych i uporczywych, jak i świeżych, trudnych do wyczyszczenia plam. Bez problemu poradzimy sobie 
+              z pozostałościami po kawie, czerwonym winie, herbacie, krwi czy wosku. Pomyśleliśmy też o właścicielach zwierząt – skutecznie usuwamy sierść 
+              i zabrudzenia, które głęboko osadzają się w dywanach i wykładzinach. Takie zabrudzenia potrafią być ogromnym wyzwaniem dla domowników i osób 
+              sprzątających tradycyjnymi metodami, ale dla nas to codzienność. Dzięki profesjonalnym rozwiązaniom sprawimy, że Twoja wykładzina odzyska świeżość
+              i czystość, jakiej oczekujesz.
             </p>
           </ServiceIconSection>
 
@@ -95,7 +94,7 @@ export default function PranieDywanowPage() {
               nieprzyjemne zapachy. Pozostała w tkaninie wilgoć odparowuje z niej samoczynnie w ciągu około 3 godzin. W
               ramach usługi wykonujemy też impregnowanie dywanu. Po tym czasie można się po nim swobodnie poruszać.
               Stosowane przez nas środki czyszczące są całkowicie bezpieczne dla domowników oraz zwierząt. Nie wywołują
-              alergii i są przyjemne zapachowo.
+              alergii i mają przyjemny zapach.
             </p>
             <p className="mt-4">
               Cenę czyszczenia wykładzin lub dywanu obliczamy z uwzględnieniem ich powierzchni oraz materiału, z którego
@@ -105,14 +104,13 @@ export default function PranieDywanowPage() {
 
           <ServiceIconSection icon="store" title="Czyszczenie tapicerki meblowej">
             <p>
-              Czyszczenie tapicerki meblowej to czynność, którą warto powtarzać regularnie. Podobnie jak w przypadku
-              czyszczenia wykładzin i prania dywanów, wykonamy ją niezależnie pod Twój adres - niezależnie czy chodzi o
-              sprzątanie w firmie, czy też w domu. Pozwoli Ci to zaoszczędzić czas oraz kłopoty związane z przewożeniem
-              mebli.
+              Czyszczenie tapicerki meblowej to zabieg, który warto wykonywać regularnie, aby Twoje meble zawsze wyglądały świeżo i estetycznie.
+              Tak jak w przypadku prania dywanów czy czyszczenia wykładzin, przyjedziemy bezpośrednio pod wskazany adres – niezależnie od
+              tego, czy potrzebujesz usługi w domu, czy w firmie. Dzięki temu oszczędzisz czas i unikniesz kłopotów związanych z przewożeniem mebli.
             </p>
             <p className="mt-4">
-              Jeżeli szukasz kompleksowej usługi sprzątania, możesz u nas również skorzystać z opcji doczyszczania
-              pomieszczeń. Skontaktuj się z nami, aby uzyskać szczegółową ofertę.
+              Jeśli zależy Ci na kompleksowej usłudze sprzątania, oferujemy także dokładne doczyszczanie pomieszczeń. 
+              Skontaktuj się z nami, a przygotujemy dla Ciebie szczegółową i dopasowaną ofertę.
             </p>
           </ServiceIconSection>
 
