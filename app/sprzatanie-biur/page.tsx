@@ -67,19 +67,20 @@ export default function SprzatanieBiurPage() {
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="window" title="Mycie okien i przeszkleń">
-            <p>
-              W ramach kompleksowej obsługi oferujemy regularne mycie okien wewnętrznych i zewnętrznych, czyszczenie
-              przeszklonych ścianek działowych oraz drzwi szklanych. Czyste okna wpuszczają więcej światła i tworzą
-              przyjemniejszą atmosferę pracy.
-            </p>
-          </ServiceIconSection>
-
-          <ServiceIconSection icon="store" title="Sprzątanie przestrzeni wspólnych">
+          <ServiceIconSection icon="window" title="Sprzątanie przestrzeni wspólnych">
             <p>
               Zajmujemy się również utrzymaniem czystości w częściach wspólnych budynków biurowych – recepcjach, korytarzach,
               klatkach schodowych, windach i parkingach podziemnych. Zapewniamy profesjonalny wizerunek Twojej firmy od
               samego wejścia do budynku.
+              
+            </p>
+          </ServiceIconSection>
+
+          <ServiceIconSection icon="store" title="Mycie przeszkleń oraz okien">
+            <p>
+              W ramach kompleksowej obsługi oferujemy regularne mycie okien wewnętrznych i zewnętrznych, czyszczenie
+              przeszklonych ścianek działowych oraz drzwi szklanych. Czyste okna wpuszczają więcej światła i tworzą
+              przyjemniejszą atmosferę pracy.
             </p>
           </ServiceIconSection>
 
@@ -118,7 +119,6 @@ export default function SprzatanieBiurPage() {
                 <li>Uzupełnianie środków higienicznych</li>
                 <li>Pielęgnacja roślin biurowych</li>
                 <li>Sortowanie odpadów</li>
-                <li>Drobne naprawy</li>
               </ul>
             </div>
           </div>
