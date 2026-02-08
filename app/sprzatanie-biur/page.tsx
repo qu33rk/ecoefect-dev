@@ -48,7 +48,7 @@ export default function SprzatanieBiurPage() {
         imageUrl="/sprzatanie-biur.jpg"
       />
       <ServiceLayout
-        title="Sprzątanie biur i obiektów komercyjnych"
+        title="Sprzątanie biur i obiektów komercyjnych Bydgoszcz"
         pageName="Sprzątanie biur"
         imageUrl="/sprzatanie-biur.jpg"
       >
