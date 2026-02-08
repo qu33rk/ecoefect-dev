@@ -42,7 +42,7 @@ export default function SprzatanieBiurPage() {
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/sprzatanie-biur" />
       <ServiceSchema
-        serviceName="Sprzątanie biur i obiektów komercyjnych"
+        serviceName="Sprzątanie biur i obiektów komercyjnych Bydgoszcz"
         serviceDescription="Profesjonalne sprzątanie biur, obiektów komercyjnych i przestrzeni biurowych w Bydgoszczy. Oferujemy kompleksowe usługi utrzymania czystości dla firm."
         serviceUrl="https://ecoefect.pl/sprzatanie-biur"
         imageUrl="/sprzatanie-biur.jpg"
