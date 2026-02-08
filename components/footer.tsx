@@ -41,6 +41,11 @@ export default function Footer() {
             <p className="font-bold mb-4">Oferta:</p>
             <ul className="space-y-2">
               <li>
+                <Link href="/sprzatanie-biur" className="hover:text-green-700 transition-colors">
+                  Sprzątanie biur
+                </Link>
+              </li>
+              <li>
                 <Link href="/mycie-okien-i-elewacji-na-wysokosciach" className="hover:text-green-700 transition-colors">
                   Mycie okien na wysokości
                 </Link>

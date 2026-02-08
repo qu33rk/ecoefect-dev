@@ -2,6 +2,7 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -46,6 +47,12 @@ export default function MycieOkienPage() {
   return (
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach" />
+      <ServiceSchema
+        serviceName="Mycie okien na wysokości"
+        serviceDescription="Oferujemy wysokościowe mycie okien i elewacji. Stosujemy bezpieczną i skuteczną metodę teleskopową. Sięgamy do poziomu 20 metrów. Bez smug i zacieków!"
+        serviceUrl="https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach"
+        imageUrl="/mycie-okien-na-wysokosci.jpg"
+      />
       <ServiceLayout
         title="Mycie okien na wysokości"
         pageName="Mycie okien na wysokości"

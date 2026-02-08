@@ -2,6 +2,7 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -40,6 +41,12 @@ export default function TerenyZielonePage() {
   return (
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/pielegnacja-terenow-zielonych" />
+      <ServiceSchema
+        serviceName="Pielęgnacja ogrodów i terenów zielonych"
+        serviceDescription="Podejmujemy się regularnej i doraźnej pielęgnacji terenów zielonych. Wykonujemy prace porządkowe oraz dbamy o estetykę ogrodów, parków, trawników i skwerów."
+        serviceUrl="https://ecoefect.pl/pielegnacja-terenow-zielonych"
+        imageUrl="/pielegnacja-ogrodow.jpg"
+      />
       <ServiceLayout
         title="Pielęgnacja ogrodów i terenów zielonych"
         pageName="Pielęgnacja ogrodów i terenów zielonych"

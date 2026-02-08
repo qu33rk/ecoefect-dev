@@ -2,6 +2,7 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -40,6 +41,12 @@ export default function PosadzkiPage() {
   return (
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/czyszczenie-polimeryzacja-posadzek" />
+      <ServiceSchema
+        serviceName="Zabezpieczanie i czyszczenie posadzek i podłóg"
+        serviceDescription="Profesjonalne usługi czyszczenia, konserwacji i zabezpieczania różnych typów posadzek. Polimeryzacja, krystalizacja marmuru, czyszczenie maszynowe posadzek."
+        serviceUrl="https://ecoefect.pl/czyszczenie-polimeryzacja-posadzek"
+        imageUrl="/czyszczenie-podlogi.jpg"
+      />
       <ServiceLayout
         title="Zabezpieczanie i czyszczenie posadzek i podłóg"
         pageName="Zabezpieczanie i czyszczenie posadzek i podłóg"

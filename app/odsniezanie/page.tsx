@@ -2,6 +2,7 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -40,6 +41,12 @@ export default function OdsniezaniePage() {
   return (
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/odsniezanie" />
+      <ServiceSchema
+        serviceName="Odśnieżanie parkingów, placów i obiektów"
+        serviceDescription="Prowadzimy prace zimowe związane z odśnieżaniem parkingów, chodników, obiektów i przestrzeni wokół budynków. Usuwamy warstwy ubitego śniegu, sople lodu oraz błoto."
+        serviceUrl="https://ecoefect.pl/odsniezanie"
+        imageUrl="/odsniezanie.jpg"
+      />
       <ServiceLayout
         title="Odśnieżanie parkingów, placów i obiektów"
         pageName="Odśnieżanie parkingów, placów i obiektów"

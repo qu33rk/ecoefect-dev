@@ -107,6 +107,11 @@ export default function Header() {
                     aria-label="Podmenu Oferta"
                   >
                     <li>
+                      <Link href="/sprzatanie-biur" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Sprzątanie biur
+                      </Link>
+                    </li>
+                    <li>
                       <Link
                         href="/mycie-okien-i-elewacji-na-wysokosciach"
                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
@@ -220,6 +225,11 @@ export default function Header() {
                     className="bg-white shadow-md rounded-md py-2 mt-1 w-full max-w-xs mx-auto"
                     aria-label="Podmenu Oferta"
                   >
+                    <li>
+                      <Link href="/sprzatanie-biur" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Sprzątanie biur
+                      </Link>
+                    </li>
                     <li>
                       <Link
                         href="/mycie-okien-i-elewacji-na-wysokosciach"

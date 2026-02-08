@@ -2,6 +2,7 @@ import ServiceLayout from "@/app/service-layout"
 import ServiceIconSection from "@/components/service-icon-section"
 import FAQItem from "@/components/faq-item"
 import FAQSchema from "@/components/faq-schema"
+import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -57,6 +58,12 @@ export default function PranieDywanowPage() {
   return (
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/pranie-dywanow-i-wykladzin" />
+      <ServiceSchema
+        serviceName="Czyszczenie wykładzin i pranie dywanów"
+        serviceDescription="Oferujemy profesjonalne pranie wykładzin i dywanów, czyszczenie tapicerki meblowej oraz ozonowanie pomieszczeń na terenie Bydgoszczy i okolic."
+        serviceUrl="https://ecoefect.pl/pranie-dywanow-i-wykladzin"
+        imageUrl="/czyszczenie-dywanu.jpg"
+      />
       <ServiceLayout
         title="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
         pageName="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
