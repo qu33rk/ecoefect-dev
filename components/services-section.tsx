@@ -28,7 +28,7 @@ export default function ServicesSection() {
                 <path d="M7 17h10" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2">sprzątanie biur</h3>
+            <span className="text-xl font-bold mb-2">sprzątanie biur</span>
             <p className="text-green-100">firm oraz wspólnot mieszkaniowych</p>
           </div>
 
@@ -51,7 +51,7 @@ export default function ServicesSection() {
                 <path d="M12 3v6" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2">usługi sprzątania</h3>
+            <span className="text-xl font-bold mb-2">usługi sprzątania</span>
             <p className="text-green-100">hal produkcyjnych i powierzchni magazynowych</p>
           </div>
 
@@ -76,7 +76,7 @@ export default function ServicesSection() {
                 <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-2">sprzątanie obiektów handlowych</h3>
+            <span className="text-xl font-bold mb-2">sprzątanie obiektów handlowych</span>
             <p className="text-green-100">sklepów, galerii, targowisk i rynków</p>
           </div>
         </div>
