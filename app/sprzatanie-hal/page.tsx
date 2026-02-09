@@ -48,7 +48,7 @@ export default function SprzatanieHalPage() {
         imageUrl="/sprzatanie-hal.jpg"
       />
       <ServiceLayout
-        title="Sprzątanie hal produkcyjnych i magazynowych"
+        title="Sprzątanie hal produkcyjnych i magazynowych Bydgoszcz"
         pageName="Sprzątanie hal"
         imageUrl="/sprzatanie-hal.jpg"
       >
