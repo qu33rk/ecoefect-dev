@@ -117,6 +117,11 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
+                      <Link href="/mycie-okien" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Mycie okien
+                      </Link>
+                    </li>
+                    <li>
                       <Link
                         href="/mycie-okien-i-elewacji-na-wysokosciach"
                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
@@ -238,6 +243,11 @@ export default function Header() {
                     <li>
                       <Link href="/sprzatanie-hal" className="block px-4 py-2 hover:bg-gray-100 text-sm">
                         Sprzątanie hal
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/mycie-okien" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Mycie okien
                       </Link>
                     </li>
                     <li>

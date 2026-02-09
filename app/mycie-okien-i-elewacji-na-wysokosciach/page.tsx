@@ -6,41 +6,37 @@ import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Mycie okien Bydgoszcz 🏙️ Mycie okien na wysokości | Eco Efect Bydgoszcz",
-  description: "Oferujemy wysokościowe mycie okien i elewacji. Stosujemy bezpieczną i skuteczną metodę teleskopową. Sięgamy do poziomu 20 metrów. Bez smug i zacieków!",
+  title: "Mycie okien na wysokości | Eco Efect Bydgoszcz",
+  description: "Specjalizujemy się w wysokościowym myciu okien i elewacji metodą teleskopową. Sięgamy do 20 metrów bez technik alpinistycznych. Bezpiecznie i bez smug!",
   alternates: {
     canonical: "https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach",
   },
 }
 
-export default function MycieOkienPage() {
+export default function MycieOkienWysokoscPage() {
   const faqItems = [
     {
       question: "Jaką techniką wykonujecie mycie okien na wysokości?",
-      answer: "Wysokościowe mycie okien przeprowadzamy z poziomu gruntu, wykorzystując w tym celu kije teleskopowe.",
+      answer: "Wysokościowe mycie okien przeprowadzamy z poziomu gruntu, wykorzystując w tym celu kije teleskopowe. Nie stosujemy technik alpinistycznych.",
     },
     {
-      question: "Czy oferujecie także alpinistyczne mycie okien?",
-      answer: "Nie.",
-    },
-    {
-      question: "Do jakiej wysokości myjecie okna?",
-      answer: "Kije teleskopowe umożliwiają sprawne i bezpieczne dotarcie do poziomu 14 metrów.",
+      question: "Do jakiej wysokości sięgacie?",
+      answer: "Nasze kije teleskopowe umożliwiają bezpieczne dotarcie do poziomu około 20 metrów, co odpowiada w przybliżeniu 6-7 piętrowemu budynkowi.",
     },
     {
       question: "Jaki sprzęt wykorzystujecie podczas mycia okien na wysokości?",
       answer:
-        "Korzystamy z profesjonalnych urządzeń Ionic Quattro, które umożliwiają szybkie i dokładne czyszczenie stolarki okiennej. To kompaktowy system myjący, wyposażony w kije teleskopowe zakończone szczotką, który wykorzystuje wodę działającą pod ciśnieniem.",
+        "Korzystamy z profesjonalnych urządzeń Ionic Quattro – kompaktowego systemu myjącego wyposażonego w kije teleskopowe zakończone szczotką, który wykorzystuje wodę demineralizowaną działającą pod ciśnieniem.",
     },
     {
-      question: "Jaką metodą myjecie okna, elewacje i witryny sklepowe?",
+      question: "Dlaczego używacie wody demineralizowanej?",
       answer:
-        "Bez względu na wysokość i lokalizację przeszkleń, mycie okien odbywa się z wykorzystaniem wody demineralizowanej, otrzymywanej w procesie odwróconej osmozy. To woda pozbawiona związków chemicznych, o najwyższym stopniu czystości. Dzięki temu, podczas mycia szyb nie pozostają żadne smugi i wyczyszczone zostają nawet silne zabrudzenia.",
+        "Woda demineralizowana, otrzymywana w procesie odwróconej osmozy, jest pozbawiona minerałów i zanieczyszczeń. Dzięki temu po wyschnięciu nie pozostawia smug ani zacieków, a efekt jest trwalszy.",
     },
     {
-      question: "Czy oferujecie wyłącznie mycie elewacji szklanych?",
+      question: "Czy mycie teleskopowe jest bezpieczne dla budynku?",
       answer:
-        "Nie, zajmujemy się czyszczeniem i doczyszczaniem elewacji wykonanych z różnych materiałów. Proponujemy też wyłącznie mycie fasad. To odpowiedni wybór dla budynków zlokalizowanych przy ruchliwych ulicach i w reprezentacyjnych miejscach, który pozwala przywrócić im dotychczasowy blask w najbardziej widocznej części.",
+        "Tak, metoda teleskopowa jest całkowicie bezpieczna. Nie wymaga montażu rusztowań ani kontaktu pracowników z elewacją, co eliminuje ryzyko uszkodzeń mechanicznych.",
     },
   ]
 
@@ -49,7 +45,7 @@ export default function MycieOkienPage() {
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach" />
       <ServiceSchema
         serviceName="Mycie okien na wysokości"
-        serviceDescription="Oferujemy wysokościowe mycie okien i elewacji. Stosujemy bezpieczną i skuteczną metodę teleskopową. Sięgamy do poziomu 20 metrów. Bez smug i zacieków!"
+        serviceDescription="Specjalizujemy się w wysokościowym myciu okien i elewacji metodą teleskopową. Sięgamy do 20 metrów bez technik alpinistycznych."
         serviceUrl="https://ecoefect.pl/mycie-okien-i-elewacji-na-wysokosciach"
         imageUrl="/mycie-okien-na-wysokosci.jpg"
       />
@@ -60,63 +56,64 @@ export default function MycieOkienPage() {
       >
         <div className="prose max-w-none">
           <p className="mb-6">
-            Wysokościowe mycie okien może odbywać za pomocą kilku metod. Najpopularniejsze z nich to technika
-            alpinistyczna, wykorzystanie podnośnika lub mycie szyb z poziomu gruntu. Na wybór konkretnego sposobu ma
-            wpływ przede wszystkim wysokość budynku i budżet klienta. Naszym zleceniodawcom proponujemy usługę
-            najbardziej ekonomiczną i najmniej inwazyjną - czyszczenie szyb i elewacji z wykorzystaniem kijów
-            teleskopowych z poziomu gruntu.
+            Specjalizujemy się w wysokościowym myciu okien i elewacji budynków wielokondygnacyjnych. Stosujemy
+            nowoczesną metodę teleskopową, która pozwala na bezpieczne i skuteczne czyszczenie przeszkleń
+            z poziomu gruntu – bez konieczności stosowania technik alpinistycznych czy podnośników.
           </p>
 
-          <ServiceIconSection icon="window" title="Mycie szyb">
+          <ServiceIconSection icon="building" title="Metoda teleskopowa">
             <p>
-              Oferujemy fachowe mycie okien i przeszkleń w biurowcach, wieżowcach i obiektach handlowo-usługowych.
-              Posiadamy specjalistyczny sprzęt umożliwiający precyzyjne czyszczenie szyb, framug i fasad. Nie stosujemy
-              technik alpinistycznych, jednak dzięki wykorzystaniu szczotek teleskopowych sięgamy poziomu 26 metrów, nie
-              stwarzając zagrożenia. Ta wysokość odpowiada w przybliżeniu 8-piętrowemu budynkowi.
+              Nasze kije teleskopowe sięgają do wysokości około 20 metrów, co odpowiada 6-7 piętrowemu budynkowi.
+              Dzięki temu możemy czyścić okna biurowców, apartamentowców i obiektów komercyjnych bez stwarzania
+              zagrożenia dla pracowników i otoczenia. Metoda jest ekonomiczna i nie wymaga zamykania terenu
+              wokół budynku.
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="building" title="Mycie elewacji">
+          <ServiceIconSection icon="window" title="Mycie elewacji szklanych">
             <p>
-              Przeprowadzając wysokościowe mycie elewacji gwarantujemy doskonały efekt wizualny - bez zacieków i smug. W
-              tym celu stosujemy wielokrotnie filtrowaną, demineralizowaną wodę, o większych zdolnościach absorpcji
-              brudu. Dzięki temu możemy zagwarantować nie tylko długotrwały, lśniący efekt, ale także dotarcie w nawet
-              trudno dostępne miejsca. Regularne mycie fasad i przeszkleń to nie tylko kwestia estetyki, ale także
-              komfortu pracy i warunków mieszkalnych. Zanieczyszczone szyby ograniczają przenikanie światła dziennego do
-              wnętrza, zmniejszając widoczność i prowadząc do generowania wyższych rachunków za elektryczność.
+              Oferujemy kompleksowe mycie całych elewacji szklanych – fasad biurowców, centrów handlowych
+              i nowoczesnych budynków mieszkalnych. Stosujemy wodę demineralizowaną, która nie pozostawia
+              smug ani zacieków nawet na dużych powierzchniach szklanych. Gwarantujemy doskonały efekt
+              wizualny i długotrwałą czystość.
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="store" title="Mycie witryn sklepowych">
+          <ServiceIconSection icon="store" title="Czyszczenie trudno dostępnych miejsc">
             <p>
-              Poza dbaniem o zewnętrzne części budynków zajmujemy się także czyszczeniem przeszkleń wewnątrz obiektów.
-              Szyby wystawowe to elementy o niestandardowych wymiarach, a dotarcie do ich wszystkich zakamarków wymaga
-              czasu i odpowiedniego sprzętu. Dolne partie są szczególnie narażone na zaleganie kurzu i brudu oraz
-              powstawanie tłustych, nieestetycznych śladów po odciskach palców. Mycie witryn sklepowych w
-              wielkopowierzchniowych kompleksach oferujemy w ramach współpracy okazjonalnej i abonamentowej.
+              Dzięki specjalistycznemu sprzętowi docieramy do miejsc niedostępnych dla tradycyjnych metod –
+              świetlików dachowych, przeszkleń nad wejściami, okien w trudnych lokalizacjach. Szczotki
+              teleskopowe pozwalają na precyzyjne czyszczenie każdego zakamarku, niezależnie od kształtu
+              i położenia okna.
             </p>
           </ServiceIconSection>
 
-          <h2 className="text-2xl font-bold mt-10 mb-4">Bezpieczne mycie okien na wysokości</h2>
-          <p className="mb-6">
-            Duże powierzchnie szklane, a nawet całe elewacje ze szkła, to istotny trend we współczesnej architekturze. Z
-            tego względu mycie okien na wysokościach cieszy się coraz większym zainteresowaniem. Bez względu na to, czy
-            usługa obejmuje wyłącznie mycie fasad czy całej elewacji budynku, tego typu prace powinny być wykonywane
-            przez fachowców. Powierzenie wysokościowego mycia okien specjalistom to gwarancja precyzyjnie wykonanej
-            usługi, z zachowaniem środków ostrożności wynikających z zasad BHP. W ten sposób można uzyskać najlepsze
-            możliwe rezultaty, nie ryzykując jednocześnie dobrem pracowników i otoczenia, a także stanem technicznym
-            budynku.
-          </p>
+          <h2 className="text-2xl font-bold mt-10 mb-4">Dlaczego metoda teleskopowa?</h2>
+          <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="bg-white p-4 rounded-lg shadow-sm">
+              <h3 className="text-lg font-bold mb-2 text-green-700">Bezpieczeństwo</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>Praca z poziomu gruntu</li>
+                <li>Brak rusztowań i podnośników</li>
+                <li>Minimalne ryzyko wypadków</li>
+                <li>Brak ingerencji w elewację</li>
+              </ul>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-sm">
+              <h3 className="text-lg font-bold mb-2 text-green-700">Efektywność</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>Woda demineralizowana</li>
+                <li>Brak smug i zacieków</li>
+                <li>Szybka realizacja</li>
+                <li>Trwały efekt czystości</li>
+              </ul>
+            </div>
+          </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Cennik</h2>
           <p>
-            Mycie okien i witryn - od 5 zł/m<sup>2</sup>
-          </p>
-          <p>
-            Mycie okien na wysokości do 20 m - od 8 zł/m<sup>2</sup>
-          </p>
-          <p>
-            Mycie elewacji - od 7 zł/m<sup>2</sup>
+            Ceny usług mycia okien na wysokości ustalane są indywidualnie, w zależności od wysokości budynku,
+            powierzchni przeszkleń oraz stopnia zabrudzenia. Skontaktuj się z nami, aby otrzymać bezpłatną wycenę.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-6">FAQ</h2>

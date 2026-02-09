@@ -14,6 +14,7 @@ export default function SideMenu() {
     () => [
       { title: "Sprzątanie biur", href: "/sprzatanie-biur" },
       { title: "Sprzątanie hal", href: "/sprzatanie-hal" },
+      { title: "Mycie okien", href: "/mycie-okien" },
       { title: "Mycie okien na wysokości", href: "/mycie-okien-i-elewacji-na-wysokosciach" },
       { title: "Czyszczenie wykładzin i pranie dywanów", href: "/pranie-dywanow-i-wykladzin" },
       { title: "Pielęgnacja ogrodów i terenów zielonych", href: "/pielegnacja-terenow-zielonych" },
