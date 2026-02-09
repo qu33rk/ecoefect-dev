@@ -8,7 +8,7 @@ interface ServiceIconSectionProps {
 export default function ServiceIconSection({ icon, title, children }: ServiceIconSectionProps) {
   return (
     <div className="mb-8">
-      <div className="flex items-start mb-4">
+      <div className="flex items-center mb-4">
         <div className="bg-green-100 p-2 rounded-full mr-3 flex-shrink-0">
           <div className="w-6 h-6 flex items-center justify-center text-green-700">
             {icon === "window" && (
