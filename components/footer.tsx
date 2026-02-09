@@ -46,6 +46,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/sprzatanie-hal" className="hover:text-green-700 transition-colors">
+                  Sprzątanie hal
+                </Link>
+              </li>
+              <li>
                 <Link href="/mycie-okien-i-elewacji-na-wysokosciach" className="hover:text-green-700 transition-colors">
                   Mycie okien na wysokości
                 </Link>
