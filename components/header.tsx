@@ -131,12 +131,22 @@ export default function Header() {
                     </li>
                     <li>
                       <Link href="/pranie-dywanow-i-wykladzin" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie wykładzin i pranie dywanów
+                        Pranie i czyszczenie dywanów
                       </Link>
                     </li>
                     <li>
                       <Link href="/pielegnacja-terenow-zielonych" className="block px-4 py-2 hover:bg-gray-100 text-sm">
                         Pielęgnacja ogrodów i terenów zielonych
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/czyszczenie-kostki-brukowej" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Czyszczenie kostki brukowej
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/czyszczenie-elewacji" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Czyszczenie elewacji
                       </Link>
                     </li>
                     <li>
@@ -260,12 +270,22 @@ export default function Header() {
                     </li>
                     <li>
                       <Link href="/pranie-dywanow-i-wykladzin" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie wykładzin i pranie dywanów
+                        Pranie i czyszczenie dywanów
                       </Link>
                     </li>
                     <li>
                       <Link href="/pielegnacja-terenow-zielonych" className="block px-4 py-2 hover:bg-gray-100 text-sm">
                         Pielęgnacja ogrodów i terenów zielonych
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/czyszczenie-kostki-brukowej" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Czyszczenie kostki brukowej
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/czyszczenie-elewacji" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                        Czyszczenie elewacji
                       </Link>
                     </li>
                     <li>

@@ -62,12 +62,22 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/pranie-dywanow-i-wykladzin" className="hover:text-green-700 transition-colors">
-                  Czyszczenie wykładzin i pranie dywanów
+                  Pranie i czyszczenie dywanów
                 </Link>
               </li>
               <li>
                 <Link href="/pielegnacja-terenow-zielonych" className="hover:text-green-700 transition-colors">
                   Pielęgnacja ogrodów i terenów zielonych
+                </Link>
+              </li>
+              <li>
+                <Link href="/czyszczenie-kostki-brukowej" className="hover:text-green-700 transition-colors">
+                  Czyszczenie kostki brukowej
+                </Link>
+              </li>
+              <li>
+                <Link href="/czyszczenie-elewacji" className="hover:text-green-700 transition-colors">
+                  Czyszczenie elewacji
                 </Link>
               </li>
               <li>

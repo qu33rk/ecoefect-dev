@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://ecoefect.pl/sitemap.xml

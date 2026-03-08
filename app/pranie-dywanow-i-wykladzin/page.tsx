@@ -6,9 +6,9 @@ import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Czyszczenie wykładzin i pranie dywanów | Eco Efect Bydgoszcz",
+  title: "Pranie i czyszczenie dywanów Bydgoszcz | Eco Efect",
   description:
-    "Oferujemy profesjonalne pranie wykładzin i dywanów, czyszczenie tapicerki meblowej oraz ozonowanie pomieszczeń na terenie Bydgoszczy i okolic.",
+    "Profesjonalne pranie i czyszczenie dywanów w Bydgoszczy i okolicach. Usuwamy plamy, roztocza, sierść i nieprzyjemne zapachy metodą ekstrakcyjną.",
   alternates: {
     canonical: "https://ecoefect.pl/pranie-dywanow-i-wykladzin",
   },
@@ -17,41 +17,34 @@ export const metadata: Metadata = {
 export default function PranieDywanowPage() {
   const faqItems = [
     {
-      question: "Czy oferujecie także usługi czyszczenia wykładzin, prania dywanów i czyszczenia tapicerki meblowej?",
+      question: "Jak często warto prać dywan?",
       answer:
-        "Tak, oferujemy kompleksowe usługi czyszczenia wykładzin, prania dywanów i czyszczenia tapicerki meblowej.",
+        "W domach najczęściej rekomendujemy gruntowne pranie dywanu co 6-12 miesięcy, a przy dzieciach, zwierzętach lub alergikach nawet częściej.",
     },
     {
-      question: "Czy mogę zamówić czyszczenie wykładziny lub dywanu poza Bydgoszczą?",
-      answer: "Tak, świadczymy usługi również poza Bydgoszczą. Skontaktuj się z nami, aby ustalić szczegóły.",
-    },
-    {
-      question:
-        "Czy w przypadku czyszczenia wykładziny lub prania dywanu Bydgoszcz i okolice obsługujecie całe województwo?",
-      answer: "Tak, obsługujemy całe województwo kujawsko-pomorskie.",
-    },
-    {
-      question: "Jaką metodą czyścicie dywany i wykładziny?",
+      question: "Czy usuwacie trudne plamy i zapachy z dywanów?",
       answer:
-        "Stosujemy metodę ekstrakcyjną, która polega na rozpyleniu mieszaniny wody i środka czyszczącego, a następnie odessaniu jej wraz z brudem za pomocą specjalnego odkurzacza.",
+        "Tak, usuwamy m.in. plamy po kawie, winie i błocie oraz neutralizujemy nieprzyjemne zapachy. Efekt zależy od rodzaju włókna i czasu, jaki minął od zabrudzenia.",
     },
     {
-      question: "Czy oferujecie także impregnowanie dywanów?",
+      question: "Jaką metodą czyścicie dywany?",
       answer:
-        "Tak, w ramach usługi prania dywanów wykonujemy również impregnowanie, które zabezpiecza dywan przed ponownym zabrudzeniem.",
+        "Stosujemy metodę ekstrakcyjną: nanosimy roztwór czyszczący, a następnie odsysamy go z brudem. To skuteczny i bezpieczny sposób doczyszczania runa.",
     },
     {
-      question: "Po jakim czasie można użytkować dywan lub wykładzinę?",
+      question: "Po jakim czasie dywan jest gotowy do użytkowania?",
       answer:
-        "Dywan lub wykładzinę można użytkować po około 3 godzinach od zakończenia czyszczenia, gdy wilgoć całkowicie odparuje.",
+        "Zazwyczaj po około 3-6 godzinach, w zależności od rodzaju dywanu, wilgotności powietrza i wentylacji pomieszczenia.",
     },
     {
-      question: "Czy oferujecie czyszczenie wykładzin i pranie samochodowe?",
-      answer: "Tak, oferujemy również czyszczenie tapicerki samochodowej.",
+      question: "Czy środki do prania dywanów są bezpieczne dla dzieci i zwierząt?",
+      answer:
+        "Tak, korzystamy z profesjonalnych środków przeznaczonych do użytku we wnętrzach. Po wyschnięciu dywanu można bezpiecznie korzystać z pomieszczenia.",
     },
     {
-      question: "Czy zajmujecie się czyszczeniem tapicerki meblowej?",
-      answer: "Tak, czyszczenie tapicerki meblowej jest jedną z naszych specjalizacji.",
+      question: "Czy czyścicie też wykładziny biurowe?",
+      answer:
+        "Tak, realizujemy także czyszczenie wykładzin w biurach i lokalach usługowych jako usługę uzupełniającą wobec prania dywanów.",
     },
   ]
 
@@ -59,71 +52,66 @@ export default function PranieDywanowPage() {
     <>
       <FAQSchema faqItems={faqItems} pageUrl="https://ecoefect.pl/pranie-dywanow-i-wykladzin" />
       <ServiceSchema
-        serviceName="Czyszczenie wykładzin i pranie dywanów"
-        serviceDescription="Oferujemy profesjonalne pranie wykładzin i dywanów, czyszczenie tapicerki meblowej oraz ozonowanie pomieszczeń na terenie Bydgoszczy i okolic."
+        serviceName="Pranie i czyszczenie dywanów"
+        serviceDescription="Profesjonalne pranie i czyszczenie dywanów w Bydgoszczy i okolicach. Usuwamy plamy, roztocza, sierść i nieprzyjemne zapachy metodą ekstrakcyjną."
         serviceUrl="https://ecoefect.pl/pranie-dywanow-i-wykladzin"
         imageUrl="/czyszczenie-dywanu.jpg"
       />
       <ServiceLayout
-        title="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
-        pageName="Czyszczenie wykładzin i pranie dywanów Bydgoszcz"
+        title="Pranie i czyszczenie dywanów Bydgoszcz"
+        pageName="Pranie i czyszczenie dywanów"
         imageUrl="/czyszczenie-dywanu.jpg"
       >
         <div className="prose max-w-none">
           <p className="mb-6">
-          Jeśli zauważysz, że Twój dywan lub wykładzina w domu czy firmie straciły dawną świeżość, nie trać czasu na nieskuteczne metody – zadzwoń do nas!
-          Samodzielne próby usuwania trudnych plam czy głębokich zabrudzeń bywają bardzo czasochłonne i wymagają specjalistycznych środków. Nigdy też nie 
-          ma pewności, czy domowe sposoby przyniosą oczekiwany efekt. W większości przypadków tradycyjne metody po prostu się nie sprawdzają, a dodatkowo 
-          wymagają ogromu energii, co szybko zniechęca. Dochodzi do tego jeszcze problem braku odpowiednich warunków i miejsca, aby przeprowadzić dokładne czyszczenie. 
-          Dlatego, jeśli chcesz szybko i skutecznie odświeżyć dywany lub wykładziny w Bydgoszczy, powierz to profesjonalistom.
+            Oferujemy profesjonalne pranie i czyszczenie dywanów dla klientów indywidualnych oraz firm w Bydgoszczy i
+            okolicach. Skutecznie usuwamy plamy, kurz, roztocza, sierść i nieprzyjemne zapachy, przywracając dywanom
+            świeżość, miękkość i estetyczny wygląd.
           </p>
 
           <p className="mb-6">
-            Profesjonalne czyszczenie wykładzin to najszybszy i najpewniejszy sposób, by pozbyć się problemu. Powierz to zadanie specjalistom, 
-            którzy mają nie tylko wiedzę i doświadczenie, ale także nowoczesny sprzęt, dzięki któremu nawet najbardziej uporczywe zabrudzenia znikają bez śladu.
+            Samodzielne czyszczenie dywanu często usuwa jedynie zabrudzenia powierzchowne. Korzystamy ze sprzętu
+            ekstrakcyjnego, który dociera głębiej w runo i pozwala skutecznie odświeżyć dywan bez ryzyka uszkodzenia
+            włókien.
           </p>
 
-          <ServiceIconSection icon="window" title="Koniec z trudnymi plamami!">
+          <ServiceIconSection icon="window" title="Usuwanie trudnych plam z dywanów">
             <p>
-              Oferujemy profesjonalne usuwanie zarówno starych i uporczywych, jak i świeżych, trudnych do wyczyszczenia plam. Bez problemu poradzimy sobie 
-              z pozostałościami po kawie, czerwonym winie, herbacie, krwi czy wosku. Pomyśleliśmy też o właścicielach zwierząt – skutecznie usuwamy sierść 
-              i zabrudzenia, które głęboko osadzają się w dywanach i wykładzinach. Takie zabrudzenia potrafią być ogromnym wyzwaniem dla domowników i osób 
-              sprzątających tradycyjnymi metodami, ale dla nas to codzienność. Dzięki profesjonalnym rozwiązaniom sprawimy, że Twoja wykładzina odzyska świeżość
-              i czystość, jakiej oczekujesz.
+              Usuwamy świeże i utrwalone zabrudzenia, m.in. po napojach, błocie czy codziennym użytkowaniu.
+              Szczególną uwagę poświęcamy miejscom najbardziej eksploatowanym, takim jak ciągi komunikacyjne,
+              strefy przy sofie czy przestrzeń przy wejściu.
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="building" title="Czyszczenie wykładzin i dywanów metodą ekstrakcyjną">
+          <ServiceIconSection icon="building" title="Pranie dywanów metodą ekstrakcyjną">
             <p>
-              Czyszczenie dywanów metodą ekstrakcyjną, którą stosujemy na co dzień w swojej pracy, polega na rozpyleniu
-              mieszaniny wody i środka czyszczącego tuż nad powierzchnią. Po wniknięciu w tkaninę substancja ta jest
-              odsysana za pomocą specjalnego odkurzacza. Metoda ta pozwala usunąć różnego typu brud, stare zabrudzenia i
-              nieprzyjemne zapachy. Pozostała w tkaninie wilgoć odparowuje z niej samoczynnie w ciągu około 3 godzin. W
-              ramach usługi wykonujemy też impregnowanie dywanu. Po tym czasie można się po nim swobodnie poruszać.
-              Stosowane przez nas środki czyszczące są całkowicie bezpieczne dla domowników oraz zwierząt. Nie wywołują
-              alergii i mają przyjemny zapach.
+              Metoda ekstrakcyjna polega na natrysku roztworu czyszczącego i odessaniu go razem z brudem.
+              Dzięki temu efektywnie czyścimy włókna dywanu na większej głębokości, a nie tylko jego powierzchnię.
+              To sprawdzona technika, która przywraca świeżość i poprawia higienę użytkowania.
             </p>
             <p className="mt-4">
-              Cenę czyszczenia wykładzin lub dywanu obliczamy z uwzględnieniem ich powierzchni oraz materiału, z którego
-              zostały wykonane.
+              Na życzenie wykonujemy również impregnację dywanu, która spowalnia ponowne osadzanie się zabrudzeń
+              i ułatwia codzienne utrzymanie czystości.
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="store" title="Czyszczenie tapicerki meblowej">
+          <ServiceIconSection icon="store" title="Czyszczenie wykładzin jako usługa dodatkowa">
             <p>
-              Czyszczenie tapicerki meblowej to zabieg, który warto wykonywać regularnie, aby Twoje meble zawsze wyglądały świeżo i estetycznie.
-              Tak jak w przypadku prania dywanów czy czyszczenia wykładzin, przyjedziemy bezpośrednio pod wskazany adres – niezależnie od
-              tego, czy potrzebujesz usługi w domu, czy w firmie. Dzięki temu oszczędzisz czas i unikniesz kłopotów związanych z przewożeniem mebli.
+              Poza praniem dywanów realizujemy także czyszczenie wykładzin w mieszkaniach, biurach i lokalach usługowych.
+              Zakres tej usługi dobieramy indywidualnie do powierzchni i rodzaju materiału.
             </p>
             <p className="mt-4">
-              Jeśli zależy Ci na kompleksowej usłudze sprzątania, oferujemy także dokładne doczyszczanie pomieszczeń. 
-              Skontaktuj się z nami, a przygotujemy dla Ciebie szczegółową i dopasowaną ofertę.
+              Pracujemy na terenie Bydgoszczy i okolic. Dla większych realizacji dojeżdżamy również w regionie
+              kujawsko-pomorskim po wcześniejszym ustaleniu.
             </p>
           </ServiceIconSection>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Cennik</h2>
           <p>
-            Pranie wykładzin - od 6 zł/m<sup>2</sup>
+            Pranie dywanów - wycena indywidualna (w zależności od rodzaju runa, metrażu i stopnia zabrudzenia).
+          </p>
+          <p>
+            Czyszczenie wykładzin - od 6 zł/m<sup>2</sup>
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-6">FAQ</h2>
