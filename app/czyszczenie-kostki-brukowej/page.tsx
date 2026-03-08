@@ -46,7 +46,7 @@ export default function CzyszczenieKostkiBrukowejPage() {
         serviceDescription="Profesjonalne czyszczenie kostki brukowej w Bydgoszczy i okolicach. Usuwamy zabrudzenia, mech, porosty i plamy olejowe."
         serviceUrl="https://ecoefect.pl/czyszczenie-kostki-brukowej"
       />
-      <ServiceLayout title="Czyszczenie kostki brukowej" pageName="Czyszczenie kostki brukowej">
+      <ServiceLayout title="Czyszczenie kostki brukowej" pageName="Czyszczenie kostki brukowej" imageUrl="/czyszczenie-kostki-brukowej.jpg">
         <div className="prose max-w-none">
           <p className="mb-6">
             Oferujemy profesjonalne czyszczenie kostki brukowej dla firm, wspólnot i klientów indywidualnych w
