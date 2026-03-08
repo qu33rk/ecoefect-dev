@@ -47,7 +47,7 @@ export default function CzyszczenieElewacjiPage() {
         serviceDescription="Profesjonalne czyszczenie elewacji w Bydgoszczy i okolicach. Usuwamy zabrudzenia atmosferyczne, glony, porosty i osady z różnych typów elewacji."
         serviceUrl="https://ecoefect.pl/czyszczenie-elewacji"
       />
-      <ServiceLayout title="Czyszczenie elewacji" pageName="Czyszczenie elewacji">
+      <ServiceLayout title="Czyszczenie elewacji" pageName="Czyszczenie elewacji" imageUrl="/czyszczenie-elewacji.jpg">
         <div className="prose max-w-none">
           <p className="mb-6">
             Oferujemy profesjonalne czyszczenie elewacji budynków mieszkalnych, biurowych i przemysłowych w Bydgoszczy
