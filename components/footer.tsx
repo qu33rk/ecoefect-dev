@@ -99,11 +99,24 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
             <p>© {new Date().getFullYear()} Eco Efect Ryszard Bąk</p>
-            <p className="mt-2 md:mt-0">
-              <Link href="/cookies" className="hover:text-green-700 transition-colors">
-                Polityka plików cookies
-              </Link>
-            </p>
+            <div className="mt-2 md:mt-0 flex flex-col md:flex-row items-center gap-2 md:gap-4">
+              <p>
+                Developed by:{" "}
+                <a
+                  href="https://www.linkedin.com/in/eryk-witkowski/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-700 transition-colors"
+                >
+                  Eryk Witkowski
+                </a>
+              </p>
+              <p>
+                <Link href="/cookies" className="hover:text-green-700 transition-colors">
+                  Polityka plików cookies
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -10,18 +10,38 @@ export default function SideMenu() {
   const [height, setHeight] = useState<string>("0px")
   const contentRef = useRef<HTMLUListElement>(null)
 
-  const menuItems = useMemo(
+  const serviceGroups = useMemo(
     () => [
-      { title: "Sprzątanie biur", href: "/sprzatanie-biur" },
-      { title: "Sprzątanie hal", href: "/sprzatanie-hal" },
-      { title: "Mycie okien", href: "/mycie-okien" },
-      { title: "Mycie okien na wysokości", href: "/mycie-okien-i-elewacji-na-wysokosciach" },
-      { title: "Pranie i czyszczenie dywanów", href: "/pranie-dywanow-i-wykladzin" },
-      { title: "Pielęgnacja ogrodów i terenów zielonych", href: "/pielegnacja-terenow-zielonych" },
-      { title: "Czyszczenie kostki brukowej", href: "/czyszczenie-kostki-brukowej" },
-      { title: "Czyszczenie elewacji", href: "/czyszczenie-elewacji" },
-      { title: "Odśnieżanie parkingów, placów i obiektów", href: "/odsniezanie" },
-      { title: "Zabezpieczanie i czyszczenie posadzek i podłóg", href: "/czyszczenie-polimeryzacja-posadzek" },
+      {
+        title: "Sprzątanie obiektów",
+        items: [
+          { title: "Sprzątanie biur", href: "/sprzatanie-biur" },
+          { title: "Sprzątanie hal", href: "/sprzatanie-hal" },
+        ],
+      },
+      {
+        title: "Mycie i czyszczenie",
+        items: [
+          { title: "Mycie okien", href: "/mycie-okien" },
+          { title: "Mycie okien na wysokości", href: "/mycie-okien-i-elewacji-na-wysokosciach" },
+          { title: "Pranie i czyszczenie dywanów", href: "/pranie-dywanow-i-wykladzin" },
+          { title: "Czyszczenie kostki brukowej", href: "/czyszczenie-kostki-brukowej" },
+          { title: "Czyszczenie elewacji", href: "/czyszczenie-elewacji" },
+        ],
+      },
+      {
+        title: "Usługi specjalistyczne",
+        items: [
+          { title: "Pielęgnacja ogrodów i terenów zielonych", href: "/pielegnacja-terenow-zielonych" },
+          { title: "Odśnieżanie parkingów, placów i obiektów", href: "/odsniezanie" },
+          { title: "Zabezpieczanie i czyszczenie posadzek i podłóg", href: "/czyszczenie-polimeryzacja-posadzek" },
+        ],
+      },
+    ],
+    []
+  )
+  const infoItems = useMemo(
+    () => [
       { title: "Cennik", href: "/cennik" },
       { title: "Polityka plików cookies", href: "/cookies" },
     ],
@@ -88,48 +108,113 @@ export default function SideMenu() {
       </div>
 
       {/* Desktop: zawsze rozwinięte, bez animacji, bez zależności od window/state */}
-      <ul className="hidden md:block divide-y divide-gray-200">
-        {menuItems.map((item, idx) => {
-          const active = isActive(item.href)
-          return (
-            <li key={idx}>
-              <Link
-                href={item.href}
-                className={`block py-3 px-4 transition-colors ${
-                  active ? "bg-green-700 text-white" : "hover:bg-gray-200"
-                }`}
-                aria-current={active ? "page" : undefined}
-              >
-                {item.title}
-              </Link>
-            </li>
-          )
-        })}
+      <ul className="hidden md:block">
+        {serviceGroups.map((group) => (
+          <li key={group.title} className="border-b border-gray-200 py-2">
+            <p className="px-4 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+              {group.title}
+            </p>
+            <ul className="divide-y divide-gray-200">
+              {group.items.map((item) => {
+                const active = isActive(item.href)
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className={`block py-3 px-4 transition-colors ${
+                        active ? "bg-green-700 text-white" : "hover:bg-gray-200"
+                      }`}
+                      aria-current={active ? "page" : undefined}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </li>
+        ))}
+        <li className="py-2">
+          <p className="px-4 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+            Informacje
+          </p>
+          <ul className="divide-y divide-gray-200">
+            {infoItems.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`block py-3 px-4 transition-colors ${
+                      active ? "bg-green-700 text-white" : "hover:bg-gray-200"
+                    }`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </li>
       </ul>
 
       {/* Mobile: wariant z animacją max-height */}
       <ul
         ref={contentRef}
         style={{ maxHeight: height }}
-        className={`md:hidden divide-y divide-gray-200 overflow-hidden transition-[max-height] duration-300 ease-in-out`}
+        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out`}
       >
-        {menuItems.map((item, idx) => {
-          const active = isActive(item.href)
-          return (
-            <li key={idx}>
-              <Link
-                href={item.href}
-                className={`block py-3 px-4 transition-colors ${
-                  active ? "bg-green-700 text-white" : "hover:bg-gray-200"
-                }`}
-                aria-current={active ? "page" : undefined}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.title}
-              </Link>
-            </li>
-          )
-        })}
+        {serviceGroups.map((group) => (
+          <li key={group.title} className="border-b border-gray-200 py-2">
+            <p className="px-4 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+              {group.title}
+            </p>
+            <ul className="divide-y divide-gray-200">
+              {group.items.map((item) => {
+                const active = isActive(item.href)
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className={`block py-3 px-4 transition-colors ${
+                        active ? "bg-green-700 text-white" : "hover:bg-gray-200"
+                      }`}
+                      aria-current={active ? "page" : undefined}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </li>
+        ))}
+        <li className="py-2">
+          <p className="px-4 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+            Informacje
+          </p>
+          <ul className="divide-y divide-gray-200">
+            {infoItems.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`block py-3 px-4 transition-colors ${
+                      active ? "bg-green-700 text-white" : "hover:bg-gray-200"
+                    }`}
+                    aria-current={active ? "page" : undefined}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </li>
       </ul>
     </nav>
   )

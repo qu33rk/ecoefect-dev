@@ -4,6 +4,34 @@ import Link from "next/link"
 import { MapPin, Phone, Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
 
+const serviceGroups = [
+  {
+    title: "Sprzątanie obiektów",
+    items: [
+      { href: "/sprzatanie-biur", label: "Sprzątanie biur" },
+      { href: "/sprzatanie-hal", label: "Sprzątanie hal" },
+    ],
+  },
+  {
+    title: "Mycie i czyszczenie",
+    items: [
+      { href: "/mycie-okien", label: "Mycie okien" },
+      { href: "/mycie-okien-i-elewacji-na-wysokosciach", label: "Mycie okien na wysokości" },
+      { href: "/pranie-dywanow-i-wykladzin", label: "Pranie i czyszczenie dywanów" },
+      { href: "/czyszczenie-kostki-brukowej", label: "Czyszczenie kostki brukowej" },
+      { href: "/czyszczenie-elewacji", label: "Czyszczenie elewacji" },
+    ],
+  },
+  {
+    title: "Usługi specjalistyczne",
+    items: [
+      { href: "/pielegnacja-terenow-zielonych", label: "Pielęgnacja ogrodów i terenów zielonych" },
+      { href: "/odsniezanie", label: "Odśnieżanie parkingów, placów i obiektów" },
+      { href: "/czyszczenie-polimeryzacja-posadzek", label: "Zabezpieczanie i czyszczenie posadzek i podłóg" },
+    ],
+  },
+]
+
 export default function Header() {
   const [ofertaOpen, setOfertaOpen] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -103,65 +131,25 @@ export default function Header() {
                 {ofertaOpen && (
                   <ul
                     id="oferta-menu"
-                    className="absolute right-0 z-10 bg-white shadow-md rounded-md py-2 mt-1 w-64"
+                    className="absolute right-0 z-10 bg-white shadow-md rounded-md py-2 mt-1 w-80"
                     aria-label="Podmenu Oferta"
                   >
-                    <li>
-                      <Link href="/sprzatanie-biur" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Sprzątanie biur
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/sprzatanie-hal" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Sprzątanie hal
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/mycie-okien" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Mycie okien
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/mycie-okien-i-elewacji-na-wysokosciach"
-                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                      >
-                        Mycie okien na wysokości
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/pranie-dywanow-i-wykladzin" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Pranie i czyszczenie dywanów
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/pielegnacja-terenow-zielonych" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Pielęgnacja ogrodów i terenów zielonych
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/czyszczenie-kostki-brukowej" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie kostki brukowej
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/czyszczenie-elewacji" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie elewacji
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/odsniezanie" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Odśnieżanie parkingów, placów i obiektów
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/czyszczenie-polimeryzacja-posadzek"
-                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                      >
-                        Zabezpieczanie i czyszczenie posadzek i podłóg
-                      </Link>
-                    </li>
+                    {serviceGroups.map((group) => (
+                      <li key={group.title} className="py-1">
+                        <p className="px-4 pt-2 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+                          {group.title}
+                        </p>
+                        <ul>
+                          {group.items.map((item) => (
+                            <li key={item.href}>
+                              <Link href={item.href} className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                                {item.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </li>
+                    ))}
                   </ul>
                 )}
               </li>
@@ -245,62 +233,22 @@ export default function Header() {
                     className="bg-white shadow-md rounded-md py-2 mt-1 w-full max-w-xs mx-auto"
                     aria-label="Podmenu Oferta"
                   >
-                    <li>
-                      <Link href="/sprzatanie-biur" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Sprzątanie biur
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/sprzatanie-hal" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Sprzątanie hal
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/mycie-okien" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Mycie okien
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/mycie-okien-i-elewacji-na-wysokosciach"
-                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                      >
-                        Mycie okien na wysokości
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/pranie-dywanow-i-wykladzin" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Pranie i czyszczenie dywanów
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/pielegnacja-terenow-zielonych" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Pielęgnacja ogrodów i terenów zielonych
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/czyszczenie-kostki-brukowej" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie kostki brukowej
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/czyszczenie-elewacji" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Czyszczenie elewacji
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/odsniezanie" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                        Odśnieżanie parkingów, placów i obiektów
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/czyszczenie-polimeryzacja-posadzek"
-                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                      >
-                        Zabezpieczanie i czyszczenie posadzek i podłóg
-                      </Link>
-                    </li>
+                    {serviceGroups.map((group) => (
+                      <li key={group.title} className="py-1">
+                        <p className="px-4 pt-2 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
+                          {group.title}
+                        </p>
+                        <ul>
+                          {group.items.map((item) => (
+                            <li key={item.href}>
+                              <Link href={item.href} className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                                {item.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </li>
+                    ))}
                   </ul>
                 )}
               </li>
