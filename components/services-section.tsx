@@ -1,15 +1,18 @@
 export default function ServicesSection() {
   return (
     <>
-    <section className="py-12 bg-green-700 text-white">
+    <section className="bg-white py-12 md:py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">
-          Firma sprzątająca <span className="text-green-300">ECO EFECT</span>
-        </h2>
+        <div className="overflow-hidden rounded-[32px] bg-gradient-to-br from-green-700 via-green-700 to-emerald-800 px-6 py-10 text-white shadow-[0_24px_70px_-40px_rgba(22,101,52,0.55)] md:px-10 md:py-12">
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+              Firma sprzątająca <span className="text-green-200">ECO EFECT</span>
+            </h2>
+          </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="flex flex-col items-center text-center">
-            <div className="bg-white p-4 rounded-full mb-4">
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-white/10 px-5 py-7 text-center">
+              <div className="mb-4 rounded-full bg-white p-4 shadow-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -27,13 +30,13 @@ export default function ServicesSection() {
                 <path d="M7 12h10" />
                 <path d="M7 17h10" />
               </svg>
+              </div>
+              <span className="mb-2 text-xl font-bold">sprzątanie biur</span>
+              <p className="text-green-100">firm oraz wspólnot mieszkaniowych</p>
             </div>
-            <span className="text-xl font-bold mb-2">sprzątanie biur</span>
-            <p className="text-green-100">firm oraz wspólnot mieszkaniowych</p>
-          </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="bg-white p-4 rounded-full mb-4">
+            <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-white/10 px-5 py-7 text-center">
+              <div className="mb-4 rounded-full bg-white p-4 shadow-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -50,13 +53,13 @@ export default function ServicesSection() {
                 <path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9" />
                 <path d="M12 3v6" />
               </svg>
+              </div>
+              <span className="mb-2 text-xl font-bold">usługi sprzątania</span>
+              <p className="text-green-100">hal produkcyjnych i powierzchni magazynowych</p>
             </div>
-            <span className="text-xl font-bold mb-2">usługi sprzątania</span>
-            <p className="text-green-100">hal produkcyjnych i powierzchni magazynowych</p>
-          </div>
 
-          <div className="flex flex-col items-center text-center">
-            <div className="bg-white p-4 rounded-full mb-4">
+            <div className="flex flex-col items-center rounded-2xl border border-white/10 bg-white/10 px-5 py-7 text-center">
+              <div className="mb-4 rounded-full bg-white p-4 shadow-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -75,18 +78,19 @@ export default function ServicesSection() {
                 <path d="M2 7h20" />
                 <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7" />
               </svg>
+              </div>
+              <span className="mb-2 text-xl font-bold">sprzątanie obiektów handlowych</span>
+              <p className="text-green-100">sklepów, galerii, targowisk i rynków</p>
             </div>
-            <span className="text-xl font-bold mb-2">sprzątanie obiektów handlowych</span>
-            <p className="text-green-100">sklepów, galerii, targowisk i rynków</p>
           </div>
         </div>
       </div>
     </section>
-    <section className="py-12 bg-white" id="text">
+    <section className="py-12 md:py-16 bg-white" id="text">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6 text-center">Jak działamy?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900 mb-6 text-center">Jak działamy?</h2>
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-lg leading-8">
             Oferujemy profesjonalne usługi sprzątające w Bydgoszczy i województwie kujawsko-pomorskim, bez dodatkowych opłat za dojazd. Nasza siedziba znajduje się na Kapuściskach. Działamy elastycznie przez całą dobę, zarówno w dni robocze jak i weekendy, dostosowując się do potrzeb różnych branż. Ze względu na używany sprzęt, dla biur rekomendujemy sprzątanie wieczorem, a dla obiektów handlowych – w późnych godzinach nocnych. Preferujemy współpracę w modelu abonamentowym, co pozwala nam oferować lepszą jakość usług w korzystniejszych cenach, zapewniając klientom stałą gotowość ich przestrzeni na przyjęcie gości.
           </p>
         </div>
