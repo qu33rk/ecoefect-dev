@@ -91,6 +91,15 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+
+            <p className="font-bold mt-6 mb-2">Firma:</p>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/praca" className="hover:text-green-700 transition-colors">
+                  Praca
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
