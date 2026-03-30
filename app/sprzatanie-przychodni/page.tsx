@@ -73,7 +73,7 @@ export default function SprzataniePrzychodni() {
           <ServiceIconSection icon="window" title="Utrzymanie stref pacjentów">
             <p>
               Poczekalnie, korytarze i toalety dla pacjentów to miejsca o największym natężeniu ruchu. Sprzątanie
-              przychodni Bydgoszcz w wykonaniu Eco Efect obejmuje regularne sprzątanie i dezynfekcję tych stref,
+              przychodni w wykonaniu Eco Efect obejmuje regularne sprzątanie i dezynfekcję tych stref,
               uzupełnianie środków higienicznych – mydła, ręczników papierowych i płynów do dezynfekcji rąk.
               Czysta i zadbana przychodnia to komfort pacjentów i pozytywny wizerunek placówki.
             </p>
