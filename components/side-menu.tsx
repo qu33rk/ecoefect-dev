@@ -17,6 +17,7 @@ export default function SideMenu() {
         items: [
           { title: "Sprzątanie biur", href: "/sprzatanie-biur" },
           { title: "Sprzątanie hal", href: "/sprzatanie-hal" },
+          { title: "Sprzątanie przychodni", href: "/sprzatanie-przychodni" },
         ],
       },
       {
