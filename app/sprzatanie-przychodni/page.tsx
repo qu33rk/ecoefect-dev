@@ -6,7 +6,7 @@ import ServiceSchema from "@/components/service-schema"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Sprzątanie przychodni i placówek medycznych | Eco Efect",
+  title: "Sprzątanie przychodni i placówek medycznych | Eco Efect Bydgoszcz",
   description:
     "Profesjonalne sprzątanie przychodni w Bydgoszczy i okolicach. Dezynfekcja gabinetów lekarskich, poczekalni i stref pacjentów. Eco Efect – zaufaj specjalistom. ☎ 502 630 031.",
   alternates: {
