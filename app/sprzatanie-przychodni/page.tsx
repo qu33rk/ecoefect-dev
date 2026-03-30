@@ -79,10 +79,10 @@ export default function SprzataniePrzychodni() {
             </p>
           </ServiceIconSection>
 
-          <ServiceIconSection icon="store" title="Gabinetów lekarskich i zabiegowych">
+          <ServiceIconSection icon="store" title="Sprzątanie gabinetów lekarskich i zabiegowych">
             <p>
-              Gabinety lekarskie i zabiegowe wymagają najwyższego poziomu higieny. Oferujemy sprzątanie przychodni
-              w Bydgoszczy z uwzględnieniem specyfiki gabinetów medycznych – dezynfekcję foteli, kozetек, sprzętu
+              Gabinety lekarskie i zabiegowe wymagają najwyższego poziomu higieny. Oferujemy sprzątanie przychodni 
+              z uwzględnieniem specyfiki gabinetów medycznych – dezynfekcję foteli, kozetек, sprzętu
               oraz powierzchni roboczych. Stosujemy profesjonalne preparaty przeznaczone do placówek ochrony
               zdrowia, skuteczne wobec bakterii, wirusów i grzybów.
             </p>
