@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function SprzataniePrzychodni() {
   const faqItems = [
     {
-      question: "Jak często powinno być sprzątane przychodnia?",
+      question: "Jak często powinna być sprzątana przychodnia?",
       answer:
         "Przychodnie lekarskie wymagają codziennego sprzątania i dezynfekcji. W przypadku dużego ruchu pacjentów zalecamy sprzątanie nawet dwa razy dziennie – rano przed otwarciem i po zakończeniu przyjęć. Nasze usługi sprzątania przychodni w Bydgoszczy obejmują elastyczne harmonogramy dostosowane do godzin pracy placówki.",
     },
