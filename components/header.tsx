@@ -11,6 +11,7 @@ const serviceGroups = [
       { href: "/sprzatanie-biur", label: "Sprzątanie biur" },
       { href: "/sprzatanie-hal", label: "Sprzątanie hal" },
       { href: "/sprzatanie-przychodni", label: "Sprzątanie przychodni" },
+      { href: "/sprzatanie-klatek-schodowych", label: "Sprzątanie klatek schodowych" },
     ],
   },
   {
@@ -160,7 +161,10 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt" className="nav-link block font-bold">
+                <Link
+                  href="/kontakt"
+                  className="inline-flex items-center justify-center bg-[#007a33] hover:bg-[#005f27] text-white font-bold px-5 py-2 rounded-lg transition-colors shadow-sm"
+                >
                   Kontakt
                 </Link>
               </li>
@@ -259,7 +263,10 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt" className="nav-link block font-bold">
+                <Link
+                  href="/kontakt"
+                  className="inline-flex items-center justify-center bg-[#007a33] hover:bg-[#005f27] text-white font-bold px-5 py-2 rounded-lg transition-colors shadow-sm"
+                >
                   Kontakt
                 </Link>
               </li>
