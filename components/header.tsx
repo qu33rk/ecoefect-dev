@@ -137,22 +137,25 @@ export default function Header() {
                     className="absolute right-0 z-10 bg-white shadow-md rounded-md py-2 mt-1 w-80"
                     aria-label="Podmenu Oferta"
                   >
-                    {serviceGroups.map((group) => (
-                      <li key={group.title} className="py-1">
-                        <p className="px-4 pt-2 pb-1 text-[11px] font-extrabold uppercase tracking-wide text-green-700">
-                          {group.title}
-                        </p>
-                        <ul>
-                          {group.items.map((item) => (
-                            <li key={item.href}>
-                              <Link href={item.href} className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                                {item.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </li>
-                    ))}
+                    {serviceGroups.map((group, groupIndex) => {
+                      const isPrimary = groupIndex < 2
+                      return (
+                        <li key={group.title} className={isPrimary ? "py-1" : "py-1 border-t border-gray-100 mt-1"}>
+                          <p className={`px-4 pt-2 pb-1 text-[11px] font-extrabold uppercase tracking-wide ${isPrimary ? "text-green-700" : "text-gray-400"}`}>
+                            {group.title}
+                          </p>
+                          <ul>
+                            {group.items.map((item) => (
+                              <li key={item.href}>
+                                <Link href={item.href} className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                                  {item.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </li>
+                      )
+                    })}
                   </ul>
                 )}
               </li>
