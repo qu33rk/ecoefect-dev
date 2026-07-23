@@ -122,7 +122,7 @@ export default function Footer() {
               <p>
                 Developed by:{" "}
                 <a
-                  href="https://www.linkedin.com/in/eryk-witkowski/"
+                  href="https://erykwitkowski.pl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-700 transition-colors"
