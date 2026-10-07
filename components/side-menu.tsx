@@ -30,6 +30,7 @@ export default function SideMenu() {
           { title: "Pranie i czyszczenie dywanów", href: "/pranie-dywanow-i-wykladzin" },
           { title: "Czyszczenie kostki brukowej", href: "/czyszczenie-kostki-brukowej" },
           { title: "Czyszczenie elewacji", href: "/czyszczenie-elewacji" },
+          { title: "Mycie paneli fotowoltaicznych", href: "/mycie-paneli-fotowoltaicznych" },
         ],
       },
       {

@@ -91,6 +91,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/mycie-paneli-fotowoltaicznych" className="hover:text-green-700 transition-colors">
+                  Mycie paneli fotowoltaicznych
+                </Link>
+              </li>
+              <li>
                 <Link href="/odsniezanie" className="hover:text-green-700 transition-colors">
                   Odśnieżanie parkingów, placów i obiektów
                 </Link>
