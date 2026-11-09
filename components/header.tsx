@@ -10,6 +10,7 @@ const serviceGroups = [
     items: [
       { href: "/sprzatanie-biur", label: "Sprzątanie biur" },
       { href: "/sprzatanie-hal", label: "Sprzątanie hal" },
+      { href: "/sprzatanie-galerii-handlowych", label: "Sprzątanie galerii handlowych" },
       { href: "/sprzatanie-przychodni", label: "Sprzątanie przychodni" },
       { href: "/sprzatanie-szkol", label: "Sprzątanie szkół" },
       { href: "/sprzatanie-klatek-schodowych", label: "Sprzątanie klatek schodowych" },
